@@ -48,7 +48,7 @@ jobs:
         run: |
           pacman -Sy --noconfirm --needed git git-lfs github-cli
       # needed only to fetch the action.yml
-      - uses: actions/checkout@eef61447b9ff4aafe5dcd4e0bbf5d482be7e7871 # v4
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
         with:
           fetch-depth: 1
       - id: repo-add
